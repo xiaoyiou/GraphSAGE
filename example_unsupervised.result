@@ -1,0 +1,28 @@
+Total memory: 7.93GiB
+Free memory: 7.81GiB
+2018-04-26 03:59:46.244501: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-04-26 03:59:46.244508: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-04-26 03:59:46.244515: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080, pci bus id: 0000:02:00.0)
+Epoch: 0001
+Iter: 0000 train_loss= 18.37463 train_mrr= 0.21413 train_mrr_ema= 0.21413 val_loss= 18.82204 val_mrr= 0.18304 val_mrr_ema= 0.18304 time= 0.65562
+Iter: 0050 train_loss= 18.09236 train_mrr= 0.18276 train_mrr_ema= 0.20360 val_loss= 18.21889 val_mrr= 0.22913 val_mrr_ema= 0.19393 time= 0.03086
+Iter: 0100 train_loss= 17.88712 train_mrr= 0.19556 train_mrr_ema= 0.19644 val_loss= 17.80578 val_mrr= 0.19621 val_mrr_ema= 0.20263 time= 0.02472
+Iter: 0150 train_loss= 17.41019 train_mrr= 0.19449 train_mrr_ema= 0.19112 val_loss= 17.80272 val_mrr= 0.18746 val_mrr_ema= 0.20393 time= 0.02266
+Iter: 0200 train_loss= 16.67828 train_mrr= 0.21581 train_mrr_ema= 0.18835 val_loss= 17.34599 val_mrr= 0.16779 val_mrr_ema= 0.20117 time= 0.02158
+Iter: 0250 train_loss= 16.60006 train_mrr= 0.18817 train_mrr_ema= 0.18743 val_loss= 16.84620 val_mrr= 0.22545 val_mrr_ema= 0.20204 time= 0.02092
+Iter: 0300 train_loss= 16.42686 train_mrr= 0.19831 train_mrr_ema= 0.18738 val_loss= 16.55084 val_mrr= 0.19254 val_mrr_ema= 0.20215 time= 0.02060
+Iter: 0350 train_loss= 16.15945 train_mrr= 0.18658 train_mrr_ema= 0.18620 val_loss= 16.16569 val_mrr= 0.20487 val_mrr_ema= 0.20137 time= 0.02032
+Iter: 0400 train_loss= 15.72572 train_mrr= 0.19132 train_mrr_ema= 0.18674 val_loss= 15.80933 val_mrr= 0.19405 val_mrr_ema= 0.20146 time= 0.02008
+Iter: 0450 train_loss= 15.50976 train_mrr= 0.17966 train_mrr_ema= 0.18690 val_loss= 15.66128 val_mrr= 0.20619 val_mrr_ema= 0.20402 time= 0.01995
+Iter: 0500 train_loss= 15.22717 train_mrr= 0.21282 train_mrr_ema= 0.18699 val_loss= 15.38020 val_mrr= 0.20582 val_mrr_ema= 0.20642 time= 0.01990
+Iter: 0550 train_loss= 15.18459 train_mrr= 0.19221 train_mrr_ema= 0.18597 val_loss= 15.29911 val_mrr= 0.22589 val_mrr_ema= 0.20532 time= 0.01987
+Iter: 0600 train_loss= 15.05051 train_mrr= 0.18148 train_mrr_ema= 0.18670 val_loss= 15.10646 val_mrr= 0.19667 val_mrr_ema= 0.20325 time= 0.01984
+Iter: 0650 train_loss= 15.01334 train_mrr= 0.17733 train_mrr_ema= 0.18748 val_loss= 15.03084 val_mrr= 0.20198 val_mrr_ema= 0.19933 time= 0.01981
+Iter: 0700 train_loss= 14.90175 train_mrr= 0.19523 train_mrr_ema= 0.18588 val_loss= 14.91421 val_mrr= 0.22937 val_mrr_ema= 0.20865 time= 0.01981
+Iter: 0750 train_loss= 14.81739 train_mrr= 0.17478 train_mrr_ema= 0.18490 val_loss= 14.89646 val_mrr= 0.19528 val_mrr_ema= 0.21089 time= 0.01973
+Iter: 0800 train_loss= 14.73559 train_mrr= 0.16080 train_mrr_ema= 0.18476 val_loss= 14.83658 val_mrr= 0.21676 val_mrr_ema= 0.21538 time= 0.01969
+Iter: 0850 train_loss= 14.75071 train_mrr= 0.18056 train_mrr_ema= 0.18603 val_loss= 14.73638 val_mrr= 0.22601 val_mrr_ema= 0.21290 time= 0.01963
+Iter: 0900 train_loss= 14.68327 train_mrr= 0.20935 train_mrr_ema= 0.18608 val_loss= 14.75546 val_mrr= 0.23804 val_mrr_ema= 0.21178 time= 0.01954
+Iter: 0950 train_loss= 14.68357 train_mrr= 0.19860 train_mrr_ema= 0.18587 val_loss= 14.69829 val_mrr= 0.22064 val_mrr_ema= 0.21220 time= 0.01947
+Iter: 1000 train_loss= 14.70309 train_mrr= 0.19624 train_mrr_ema= 0.18477 val_loss= 14.68698 val_mrr= 0.20871 val_mrr_ema= 0.21385 time= 0.01941
+Optimization Finished!

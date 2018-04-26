@@ -1,0 +1,109 @@
+{
+    "$schema": "http://json-schema.org/draft-03/schema#", 
+    "required": true, 
+    "type": "object", 
+    "id": "#", 
+    "properties": {
+        "directed": {
+            "required": true, 
+            "type": "boolean", 
+            "id": "directed"
+        }, 
+        "graph": {
+            "required": true, 
+            "type": "object", 
+            "id": "graph", 
+            "properties": {
+                "name": {
+                    "required": true, 
+                    "type": "string", 
+                    "id": "name"
+                }
+            }
+        }, 
+        "nodes": {
+            "items": {
+                "required": true, 
+                "type": "object", 
+                "id": "0", 
+                "properties": {
+                    "test": {
+                        "required": true, 
+                        "type": "boolean", 
+                        "id": "test"
+                    }, 
+                    "feature": {
+                        "items": {
+                            "required": true, 
+                            "type": "number", 
+                            "id": "0"
+                        }, 
+                        "required": true, 
+                        "type": "array", 
+                        "id": "feature"
+                    }, 
+                    "id": {
+                        "required": true, 
+                        "type": "number", 
+                        "id": "id"
+                    }, 
+                    "val": {
+                        "required": true, 
+                        "type": "boolean", 
+                        "id": "val"
+                    }, 
+                    "label": {
+                        "items": {
+                            "required": true, 
+                            "type": "number", 
+                            "id": "0"
+                        }, 
+                        "required": true, 
+                        "type": "array", 
+                        "id": "label"
+                    }
+                }
+            }, 
+            "required": true, 
+            "type": "array", 
+            "id": "nodes"
+        }, 
+        "links": {
+            "items": {
+                "required": true, 
+                "type": "object", 
+                "id": "0", 
+                "properties": {
+                    "test_removed": {
+                        "required": true, 
+                        "type": "boolean", 
+                        "id": "test_removed"
+                    }, 
+                    "train_removed": {
+                        "required": true, 
+                        "type": "boolean", 
+                        "id": "train_removed"
+                    }, 
+                    "target": {
+                        "required": true, 
+                        "type": "number", 
+                        "id": "target"
+                    }, 
+                    "source": {
+                        "required": true, 
+                        "type": "number", 
+                        "id": "source"
+                    }
+                }
+            }, 
+            "required": true, 
+            "type": "array", 
+            "id": "links"
+        }, 
+        "multigraph": {
+            "required": true, 
+            "type": "boolean", 
+            "id": "multigraph"
+        }
+    }
+}
